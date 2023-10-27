@@ -5,7 +5,7 @@ def test_greet():
 
 def test_greet_with_default():
     from hello import greet
-    assert greet() == 'Hello, world!!!'
+    assert greet() == 'Hello, World!!!'
 
 def test_greet_with_empty_string():
     from hello import greet
