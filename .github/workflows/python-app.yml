@@ -31,5 +31,6 @@ jobs:
         python -m pip install --upgrade pip
         pipenv install
     - name: Test with pytest
+      working-directory: ./
       run: |
-        pytest
+        pipenv run pytest
